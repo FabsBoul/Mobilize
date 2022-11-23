@@ -12,32 +12,32 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 
     WA.room.onEnterLayer('CalcToRoom18').subscribe(()=>{
-        WA.nav.goToRoom("https://fabsboul.github.io/Mobilize/map18.json");
+        WA.nav.goToRoom("18/map18.json");
 
     })
 
     WA.room.onEnterLayer('CalcToRoom35').subscribe(()=>{
-        WA.nav.goToRoom("map35.json");
+        WA.nav.goToRoom("35/map35.json");
 
     })
 
     WA.room.onEnterLayer('CalcToRoomB2C').subscribe(()=>{
-        WA.nav.goToRoom("mapB2E.json");
+        WA.nav.goToRoom("B2E/mapB2E.json");
 
     })
 
     WA.room.onEnterLayer('CalcToRoomB2G').subscribe(()=>{
-        WA.nav.goToRoom("mapB2E.json");
+        WA.nav.goToRoom("B2G/mapB2G.json");
 
     })
 
     WA.room.onEnterLayer('CalcToRoomB2E').subscribe(()=>{
-        WA.nav.goToRoom("mapB2E.json");
+        WA.nav.goToRoom("B2E/mapB2E.json");
 
     })
 
     WA.room.onEnterLayer('CalcToRoomCorp').subscribe(()=>{
-        WA.nav.goToRoom("mapB2E.json");
+        WA.nav.goToRoom("B2E/mapB2E.json");
 
     })
 
