@@ -16,15 +16,6 @@ WA.onInit().then(() => {
 
     })
 
-
-    WA.room.onEnterLayer('clockZone').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
-        currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
-    })
-
-    WA.room.onLeaveLayer('clockZone').subscribe(closePopup)
-
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
