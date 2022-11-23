@@ -857,12 +857,6 @@
          "id":39,
          "name":"exitWestClosed",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"visible",
-                 "type":"string",
-                 "value":"{{^exitWestURL}}1{{\/exitWestURL}}"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":40,
@@ -904,12 +898,6 @@
          "id":37,
          "name":"exitNorthClosed",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"visible",
-                 "type":"string",
-                 "value":"{{^exitNorthURL}}1{{\/exitNorthURL}}"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":40,
