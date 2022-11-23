@@ -22,7 +22,7 @@ WA.onInit().then(() => {
     })
 
     WA.room.onEnterLayer('CalcToRoomB2C').subscribe(()=>{
-        WA.nav.goToRoom("B2E/mapB2E.json");
+        WA.nav.goToRoom("B2C/mapB2C.json");
 
     })
 
@@ -37,7 +37,7 @@ WA.onInit().then(() => {
     })
 
     WA.room.onEnterLayer('CalcToRoomCorp').subscribe(()=>{
-        WA.nav.goToRoom("B2E/mapB2E.json");
+        WA.nav.goToRoom("Corp/mapCorp.json");
 
     })
 
