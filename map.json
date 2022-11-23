@@ -1138,7 +1138,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"script.js"
+         "value":""
         }, 
         {
          "name":"tutorial",
