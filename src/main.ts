@@ -12,12 +12,12 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 
     WA.room.onEnterLayer('CalcToRoom18').subscribe(()=>{
-        WA.nav.goToRoom("mapB2E.json");
+        WA.nav.goToRoom("map18.json");
 
     })
 
     WA.room.onEnterLayer('CalcToRoom35').subscribe(()=>{
-        WA.nav.goToRoom("mapB2E.json");
+        WA.nav.goToRoom("map35.json");
 
     })
 
