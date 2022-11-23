@@ -16,6 +16,31 @@ WA.onInit().then(() => {
 
     })
 
+    WA.room.onEnterLayer('CalcToRoom35').subscribe(()=>{
+        WA.nav.goToRoom("mapB2E.json");
+
+    })
+
+    WA.room.onEnterLayer('CalcToRoomB2C').subscribe(()=>{
+        WA.nav.goToRoom("mapB2E.json");
+
+    })
+
+    WA.room.onEnterLayer('CalcToRoomB2G').subscribe(()=>{
+        WA.nav.goToRoom("mapB2E.json");
+
+    })
+
+    WA.room.onEnterLayer('CalcToRoomB2E').subscribe(()=>{
+        WA.nav.goToRoom("mapB2E.json");
+
+    })
+
+    WA.room.onEnterLayer('CalcToRoomCorp').subscribe(()=>{
+        WA.nav.goToRoom("mapB2E.json");
+
+    })
+
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
