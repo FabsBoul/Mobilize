@@ -11,6 +11,12 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
+    WA.room.onEnterLayer('CalcToRoom18').subscribe(()=>{
+        WA.nav.goToRoom("mapB2E.json");
+
+    })
+
+
     WA.room.onEnterLayer('clockZone').subscribe(() => {
         const today = new Date();
         const time = today.getHours() + ":" + today.getMinutes();
