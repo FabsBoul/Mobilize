@@ -12,7 +12,7 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 
     WA.room.onEnterLayer('CalcToRoom18').subscribe(()=>{
-        WA.nav.goToRoom("18/map18.json");
+        WA.nav.goToRoom("map18.json");
 
     })
 
