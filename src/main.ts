@@ -4,12 +4,21 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
 
-//let currentPopup: any = undefined;
+let currentPopup: any = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
+
+
+    WA.room.onEnterLayer('zoneInfoLocCars').subscribe(() => {
+        currentPopup = WA.ui.openPopup("popupInfoLocCars","Nos véhicules sont en exposition sur le port face au bateau de Luffy" ,[]);
+    })
+    WA.room.onLeaveLayer('zoneInfoLocCars').subscribe(closePopup)
+
+
+
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
@@ -18,11 +27,11 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
 
-//function closePopup(){
-//    if (currentPopup !== undefined) {
-//        currentPopup.close();
-//        currentPopup = undefined;
-//    }
-//}
+function closePopup(){
+    if (currentPopup !== undefined) {
+        currentPopup.close();
+        currentPopup = undefined;
+    }
+}
 
 export {};
