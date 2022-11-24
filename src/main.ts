@@ -11,6 +11,10 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
+    WA.room.onEnterLayer('BackHomeZone').subscribe(()=>{
+        WA.nav.goToRoom("map.json");
+
+    })
     WA.room.onEnterLayer('CalcToRoom18').subscribe(()=>{
         WA.nav.goToRoom("map18.json");
 
