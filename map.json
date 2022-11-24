@@ -298,6 +298,12 @@
          "id":57,
          "name":"CalcToRoomCorp",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitSceneUrl",
+                 "type":"string",
+                 "value":"mapCorp.json"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":28,
