@@ -1,1 +1,0 @@
-import{b as r}from"./init.278044ea.js";console.log("Script started successfully");WA.onInit().then(()=>{console.log("Scripting API ready"),console.log("Player tags: ",WA.player.tags),WA.room.onEnterLayer("BackHomeZone").subscribe(()=>{WA.nav.goToRoom("map.json")}),r().then(()=>{console.log("Scripting API Extra ready")}).catch(o=>console.error(o))}).catch(o=>console.error(o));
