@@ -1224,9 +1224,10 @@
          "tilewidth":32
         }, 
         {
+         "backgroundcolor":"#ffffff",
          "columns":35,
          "firstgid":181,
-         "image":"src\/assets\/mountains.png",
+         "image":"src\/assets\/Mountains.png",
          "imageheight":608,
          "imagewidth":1120,
          "margin":0,
