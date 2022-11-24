@@ -15,10 +15,10 @@ WA.onInit().then(() => {
         WA.nav.goToRoom("map.json");
 
     })
-    WA.room.onEnterLayer('CalcToRoom18').subscribe(()=>{
-        WA.nav.goToRoom("map18.json");
+//    WA.room.onEnterLayer('CalcToRoom18').subscribe(()=>{
+//        WA.nav.goToRoom("map18.json");
 
-    })
+ //   })
 
     WA.room.onEnterLayer('CalcToRoom35').subscribe(()=>{
         WA.nav.goToRoom("35/map35.json");
