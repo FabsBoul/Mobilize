@@ -858,7 +858,24 @@
          "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "class":"area",
+                 "height":85.4548666666666,
+                 "id":12,
+                 "name":"vehicules",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"qrcode.png"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":93.3333333333334,
+                 "x":523.333333333333,
+                 "y":182.6059
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -1071,7 +1088,7 @@
          "y":0
         }],
  "nextlayerid":59,
- "nextobjectid":12,
+ "nextobjectid":13,
  "orientation":"orthogonal",
  "properties":[
         {
